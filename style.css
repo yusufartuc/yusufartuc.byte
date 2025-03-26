@@ -1,3 +1,37 @@
+/*  Everytime when you start a css file, do not forget to start with margin, padding and box-sizing */
+
 * {
     margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: papayawhip;
+    background-position: center;
+}
+
+nav {
+    background-color: #242424;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 30px;
+
+}
+
+nav ul li {
+    padding: 20px;
+    list-style: none;
+}
+
+nav ul a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+a:hover {
+    color: papayawhip;
 }
